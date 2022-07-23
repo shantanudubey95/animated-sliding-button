@@ -1,11 +1,10 @@
-import 'react-native-gesture-handler';
 import { StyleSheet, Text, View } from 'react-native';
-import ReAnimatedExample from './ReAnimatedExample';
+import GestureHandlerExample from './GestureHandlerExample';
 
 export default function App() {
   return (
     <View style={styles.container}>
-    <ReAnimatedExample />
+    <GestureHandlerExample />
     </View>
   );
 }
