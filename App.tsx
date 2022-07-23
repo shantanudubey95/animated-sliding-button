@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import ReAnimatedExample from './ReAnimatedExample';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up Checking.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <ReAnimatedExample />
     </View>
   );
 }
